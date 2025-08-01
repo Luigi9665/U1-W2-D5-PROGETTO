@@ -1,5 +1,8 @@
 /* Your styles here */
 body {
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 #logo {
@@ -14,4 +17,146 @@ body {
 
 #toolbar {
   background-color: #364759;
+  text-align: left;
+}
+#toolbar h4 {
+  display: inline-block;
+  font-size: 17px;
+
+  padding: 10px 0 10px 20px;
+}
+#toolbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.bg-dark {
+  color: #eaeded;
+  background-color: #364759;
+}
+.bg-yellow {
+  color: #eaeded;
+  background-color: #f56600;
+}
+.bg-yellow h4 {
+  padding-block: 8px;
+}
+
+.margin-section {
+  margin: 20px 30px 0 30px;
+}
+
+#bg-green {
+  background-image: url("../images/bg-image.png");
+  text-align: center;
+  margin-top: 25px;
+  background-position: top;
+}
+
+#bg-green h1,
+h3 {
+  color: #eaeded;
+  width: 100%;
+}
+#bg-green h1 {
+  padding-block: 40px 15px;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+#bg-green h3 {
+  padding-block: 5px 40px;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container p {
+  text-align: left;
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.container a {
+  text-decoration: none;
+  color: #0c5d6f;
+  font-size: 0.7em;
+  padding-left: 10px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.Card-alone {
+  display: inline-block;
+  width: 22%;
+  height: 400px;
+  margin-inline: 1%;
+  box-shadow: 7px 5px 15px -3px rgba(0, 0, 0, 0.43);
+  border: 0px solid transparent;
+  border-radius: 20px;
+}
+
+.Card-alone img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+section img {
+  width: 100%;
+}
+section div {
+  margin-top: 30px;
+}
+section p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding-top: 5px;
+}
+section a {
+  text-decoration: none;
+  color: #0c5d6f;
+  font-size: 0.7em;
+  padding-left: 10px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  padding-block: 15px;
+}
+footer a {
+  color: #eaeded;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  font-size: 0.9em;
+}
+
+.piè-pagina {
+  background-color: #222f3f;
+  text-align: center;
+}
+.piè-pagina img {
+  background-color: #222f3f;
+  width: 10rem;
+  padding-block: 50px 60px;
 }
