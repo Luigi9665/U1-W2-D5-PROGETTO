@@ -1,0 +1,17 @@
+/* Your styles here */
+body {
+}
+
+#logo {
+  background-color: #222f3f;
+  text-align: left;
+}
+
+#logo img {
+  width: 10rem;
+  padding: 10px 0 10px 30px;
+}
+
+#toolbar {
+  background-color: #364759;
+}
